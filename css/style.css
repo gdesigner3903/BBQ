@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway:300,400,500,500i,600,700,800,900&display=swap');
+
+body{
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-brand img{
+	width: 140px
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 2rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+	
+	font-weight: 600;
+	font-family: Raleway
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color:red !important;
+}
+
+.btn-custom {
+	background-color: red !important;
+	color: white !important;
+	border:2px solid red;
+	padding-right: 30px !important;
+	padding-left:  30px !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	border-radius: 30px
+
+}
+
+.btn-custom:hover {
+	background-color: white !important;
+	color: red !important;
+	border:2px solid red;
+	border-radius: 30px
+}
+
+.banner {
+    background-image: url(../images/bbq.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #4e4e4e;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+}
+.banner .row{
+	 min-height: 80vh
+}
+
+.banner h3{
+     font-size: 20px;
+     font-family:raleway;
+     font-weight: 500;
+     color: #ffd400;
+}
+
+
+.banner h1{
+	font-size: 75px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    margin-top: -14px;
+    margin-bottom: 20px;
+    color: red !important;
+    animation: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+@keyframes color{
+	0%{
+		color:red;
+	}
+	50%{
+		color: #ffd400;
+	}
+	100%{
+		color: white
+
+	}
+}
+
+
+.banner p{
+	font-size: 15px;
+     font-family:raleway;
+     font-weight: 300
+	
+}
+.banner-btn{
+	animation-name: up-down;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes up-down{
+ 0%{ transform: translateY(0px); }
+ 50%{
+ 	transform: translateY(20px);
+ }
+ 100%{
+ 	transform: translateY(0px);
+ }
+
+}
+.banner-btn li{
+	padding: 10px
+}
+.banner-btn a {
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    
+}
+
+.banner-btn a::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 2px solid white;
+	top:-4px;
+	left: 0;
+	border-radius: 30px;
+}
+
+.banner-btn a:hover{
+	background-color: white;
+    color: red !important;
+
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: red;
+}
+
+
+.about{
+	padding-top: 15px
+}
+
+.btn{
+	background-color: white !important;
+	color: red !important;
+	font-size: 15px;
+	font-weight: 600
+}
+
+.btn:hover{
+	
+	color: white !important;
+	border: 2px solid white;
+	border-radius: 30px;
+	background-color: red !important
+
+}
+
+.about-section{
+	padding-top: 50px
+
+
+}
+.about{
+	text-align: center;
+
+}
+
+.about h1{
+	font-size: 50px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    color: red !important;
+    padding-bottom: 10px;
+
+}
+
+.about h4 {
+    font-size: 25px;
+    font-weight: 200;
+    color: #000000db;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Abril Fatface;
+}
+
+.about h5 {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: #efd105;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.about p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #4c4c4cd1;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.shadow-lg {
+    box-shadow: -5px 10px 20px grey !important;
+}
+
+.shadow-lg:hover {
+    box-shadow: 0px 0px 0px grey !important;
+}
+
+.client{
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+
+.client img{
+	filter: blur(1px);
+	padding: 20px
+}
+
+.client img:hover{
+	filter: blur(0px);
+}
+
+.banner-two{
+	background-image: url(../images/banner2.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #4e4e4e;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+    
+	
+}
+
+
+.banner-two .row{
+	 min-height: 60vh
+}
+
+.banner-two h3{
+	font-size: 35px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    color: red !important;
+    padding-bottom: 10px
+
+}
+
+.banner-two h5 {
+    font-size: 12px;
+    font-family: Raleway;
+    font-weight: 500;
+    letter-spacing: 10px;
+    padding-bottom: 8px;
+    color: #ffd400;
+}
+
+.banner-two p{
+	font-size: 10px;
+    font-family: Raleway;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+}
+.menu{
+	padding-top: 100px;
+	 padding-bottom: 100px
+}
+
+.menu .row {
+    padding: 30px;
+   }
+
+.menu h3{
+	font-size: 30px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    color: red !important;
+    
+
+}
+
+.menu .shadow:hover{
+	shadow:none;
+}
+
+.menu h1{
+	font-family: Raleway;
+    font-weight: 600;
+   
+}  
+
+.menu p{
+	font-weight: 300;
+    color: red !important;
+}
+
+.banner-three{
+	background-image: url(../images/friend.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2f2f2f;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+
+}
+.banner-three .row{
+	 min-height: 70vh
+}
+
+.banner-three h1 {
+    font-size: 50px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    color: red !important;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.banner-three h5 {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 500;
+    color: #ffd400 !important;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.banner-three p{
+	font-family: Raleway;
+    font-weight: 300;
+    padding-top: 5px
+}
+
+.people{
+	padding-top: 100px;
+
+}
+
+.com{
+	text-align: center;
+	padding-bottom: 50px
+}
+
+.com h1{
+	font-size: 40px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    color: red !important;
+    letter-spacing: 2px
+
+}
+
+.com p{
+	 font-weight: 400;
+
+}
+.people{
+	padding-bottom: 100px
+}
+.people .nav li{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.people .nav img{
+	width: 400px
+}
+
+.people .nav h4{
+	 font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px
+	
+}
+
+.people .nav p{
+	font-size: 16px;
+    font-family: Abril Fatface;
+    font-weight: 700;
+    color: red !important;
+    text-align: center;
+}
+
+
+.footer{
+	background-image: url(../images/chair.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2f2f2f;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+
+}
+
+.footer .row{
+	min-height: 80vh
+}
+
+.footer h1{
+	font-size: 75px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    margin-top: -14px;
+    margin-bottom: 10px;
+    color: red !important;
+    margin: 0
+
+}
+
+.footer p{
+	margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #ffe200;
+}
+	
+.footer h4{
+    font-weight: 600;
+    padding-top: 10px
+   
+}
